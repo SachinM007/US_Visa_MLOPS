@@ -1,0 +1,25 @@
+ipykernel           #allows Jupyter notebooks to run python code interactively
+pandas              #handle dataframes in python for data manipulation and analysis
+numpy               #core package for numerical computations and array handling
+matplotlib          #visualization library for plotting
+plotly              #create interactive visualizations and dashboards
+seaborn             #built on matplotlib to provide high-level interface for statistical plots
+scipy               #provides scientific and technical computing functionalities
+scikit-learn        #machine learning library
+imblearn            #provides tools to deal with imbalanced datasets
+xgboost             #gradient boos
+catboost            #gradient boosting algorithm focused on categorical feature handling 
+pymongo             #for interaction with MongoDB     
+from_root           #helps manage relative imports in python
+evidently==0.2.8    #library for model performance monitoring and tracking (ex: data drift datection)
+dill                #used for serializing Python objects (better than pickle in some cases)
+PyYAML              #parse YAML files, often used for configuration files
+neuro_mf            #library developed by ineuron with some features
+boto3               #AWS SDK for Python, for interacting with Amazon Web Services (e.g., S3, EC2)
+mypy-boto3-s3       #type annotations for boto3, specifically for S3 interactions, improving code reliability
+botocore            #low-level AWS SDK, provides essential services for interacting with AWS
+fastapi             #modern web framework for building APIs, known for speed and ease of use
+uvicorn             #ASGI server for serving FastAPI applications (async support)
+jinja2              #templating engine for generating dynamic HTML (often used in web apps)
+python-multipart    #handle multipart form data, useful for file uploads in web applications
+-e .                #make folders as local packages
