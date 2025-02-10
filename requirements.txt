@@ -10,7 +10,7 @@ imblearn            #provides tools to deal with imbalanced datasets
 xgboost             #gradient boos
 catboost            #gradient boosting algorithm focused on categorical feature handling 
 pymongo             #for interaction with MongoDB     
-from_root           #helps manage relative imports in python
+from-root           #helps manage relative imports in python
 evidently==0.2.8    #library for model performance monitoring and tracking (ex: data drift datection)
 dill                #used for serializing Python objects (better than pickle in some cases)
 PyYAML              #parse YAML files, often used for configuration files
